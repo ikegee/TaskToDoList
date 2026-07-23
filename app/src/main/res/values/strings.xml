@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TaskToDoList</string>
+
+    <!-- Screen titles -->
+    <string name="tasks_title">Tasks</string>
+    <string name="add_task_title">Add Task</string>
+    <string name="edit_task_title">Edit Task</string>
+
+    <!-- Field labels -->
+    <string name="task_title_label">Title</string>
+    <string name="task_title_hint">Enter a title for this task.</string>
+    <string name="task_description_label">Description</string>
+    <string name="task_description_hint">Enter a description for this task.</string>
+    <string name="task_due_date">Due date</string>
+    <string name="task_category">Category</string>
+    <string name="task_priority">Priority</string>
+
+    <!-- Status -->
+    <string name="task_checked_completed">Completed</string>
+    <string name="task_checked_pending">Pending</string>
+
+    <!-- List row prefixes -->
+    <string name="category_prefix">Category: %1$s</string>
+    <string name="priority_prefix">Priority: %1$s</string>
+
+    <!-- Actions -->
+    <string name="action_add">Add</string>
+    <string name="action_update">Update</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_email_task">Email Task</string>
+    <string name="new_task">New task</string>
+    <string name="email_chooser_title">Choose an Email client</string>
+
+    <!-- Empty list / tips -->
+    <string name="no_tasks">Tasks Empty</string>
+    <string name="no_tasks_guidance">Tap + to add a task</string>
+    <string name="edit_task_tip">Tap task to edit</string>
+
+    <!-- Validation -->
+    <string name="error_enter_title">Enter Title</string>
+    <string name="error_enter_description">Enter Description</string>
+    <string name="error_title_max_length">Title max %1$d characters</string>
+    <string name="error_description_max_length">Description max %1$d characters</string>
+    <string name="error_task_not_found">Task not found</string>
+
+    <!-- Category / priority options -->
+    <string-array name="category_array">
+        <item>Personal</item>
+        <item>Home</item>
+        <item>Work</item>
+    </string-array>
+
+    <string-array name="priority_array">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+</resources>
