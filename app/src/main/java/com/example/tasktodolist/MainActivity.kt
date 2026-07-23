@@ -18,6 +18,12 @@ import com.example.tasktodolist.ui.screens.EditTaskScreen
 import com.example.tasktodolist.ui.screens.TaskListScreen
 import com.example.tasktodolist.ui.theme.TaskToDoListTheme
 
+/**
+ * Author:  G.E. Eidsness
+ * Project: TaskToDoList File: MainActivity.kt
+ * Created:  2026-07-22
+ */
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

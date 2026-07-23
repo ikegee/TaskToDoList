@@ -4,9 +4,11 @@ import java.time.LocalDate
 import java.util.UUID
 
 /**
+ * Author: G.E. Eidsness
+ * Project: TaskToDoList File: Task.kt
  * Task domain model.
  *
- * Ported from TaskLinkedList (data class modernized 2026-07-13).
+ * Ported from TaskLinkedList (Created: 2017-08-15).
  */
 data class Task(
     val id: UUID = UUID.randomUUID(),

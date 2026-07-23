@@ -59,7 +59,9 @@ private const val MAX_TITLE_LENGTH = 50
 private const val MAX_DESCRIPTION_LENGTH = 200
 
 /**
- * Edit-task form (legacy EditTaskActivity parity).
+ * Author:  G.E. Eidsness
+ * Project: TaskToDoList File: AddTaskScreen.kt
+ * Edit-task form (legacy EditTaskActivity parity Created: 2017-08-15).
  * [taskId] is the UUID string from the navigation route.
  */
 @OptIn(ExperimentalMaterial3Api::class)

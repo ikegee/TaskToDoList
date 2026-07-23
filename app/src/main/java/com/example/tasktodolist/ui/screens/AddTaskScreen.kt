@@ -53,7 +53,9 @@ private const val MAX_TITLE_LENGTH = 50
 private const val MAX_DESCRIPTION_LENGTH = 200
 
 /**
- * Create-task form (legacy AddTaskActivity parity).
+ * Author:  G.E. Eidsness
+ * Project: TaskToDoList File: AddTaskScreen.kt
+ * Create-task form (legacy AddTaskActivity parity: Created: 2017-08-15).
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

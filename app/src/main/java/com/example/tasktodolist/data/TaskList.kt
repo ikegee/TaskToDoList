@@ -6,12 +6,14 @@ import java.util.LinkedList
 import java.util.UUID
 
 /**
+ * Author: G.E. Eidsness
+ * Project: TaskToDoList File: TaskList.kt
  * Shared store for tasks: in-memory [LinkedList] plus disk via [TaskPreferences].
  *
  * Call [init] once (e.g. from [com.example.tasktodolist.MainActivity.onCreate])
  * before reading tasks. Screens should use [instance] for add/edit/display.
  *
- * Ported from TaskLinkedList.
+ * Ported from TaskLinkedList (Created: 2017-08-15).
  */
 class TaskList private constructor() {
 

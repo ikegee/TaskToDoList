@@ -57,6 +57,9 @@ import com.example.tasktodolist.ui.components.AppTopBar
 import com.example.tasktodolist.ui.components.appContentWindowInsets
 
 /**
+ * Author:  G.E. Eidsness
+ * Project: TaskToDoList File: TaskListScreen.kt
+ * Create-task form (legacy AddTaskActivity parity: Created: 2017-08-15).
  * Task list screen (legacy DisplayTasksActivity parity).
  */
 @OptIn(ExperimentalMaterial3Api::class)
